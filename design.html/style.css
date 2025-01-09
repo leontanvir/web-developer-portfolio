@@ -57,8 +57,9 @@ nav ul li a {
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    margin: 60px;
+    margin:0px 0px 40px 60px ;
     background-position: top left, bottom right;
+    background-color: #FFF8F3;
 
 }
 /* banner style */
@@ -84,7 +85,7 @@ nav ul li a {
 }
 .banner-description{
     color: #757575;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .profile-picture{
     width: 584px;
@@ -97,4 +98,92 @@ nav ul li a {
     background-color: white;
     color: #FD6E0A;
     font-weight: bold;
+}
+/* main style */
+main{
+     max-width: 1200px ;
+     max-height: 550px;
+     margin: 0px auto;
+}
+
+/* context */
+.context{
+    background-color: #FFF8F3;
+    
+    background-position: center;
+    border-radius: 10px;
+    padding: 131px 200px;
+
+}
+
+.box{
+    border-color: black;
+    background-color: white;
+    padding: 20px;
+}
+.context-title{
+   text-align: center;
+   
+
+}
+.about{
+    font-size: 35px;
+    font-weight: bold;
+}
+.context-style{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.context-foot-design{
+    font-weight: bold;
+}
+.context-foot{
+    text-align: center;
+}
+
+
+/* buttom-style */
+
+.buttom-title{
+   
+   
+    
+}
+.buttom-head{
+    padding: 0px 116px;
+    text-align: center;
+    margin-top: 130px;
+    
+}
+.pra{
+    font-size: 18px;
+   
+}
+.head{
+    font-size: 35;
+    font-weight: bold;
+   
+}
+.buttom-all{
+    display: flex;
+    justify-content: space-around;
+    
+    background-color: white;
+    gap: 24px;
+    padding: 30px;
+   
+    
+}
+.buttom{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.big{
+font-size: 20px;
+font-weight: bold;
+}
+.small{
+font-size: 16px;
 }
